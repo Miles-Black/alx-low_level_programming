@@ -11,31 +11,24 @@ int main(void)
 
 	i = 48;
 	e = 48;
-	g = 48;
-
+	
 	while (e < 58)
 	{
 		i = 48;
 		while (i < 58)
-		{
-			g = 48;
-			while (g < 58)
-			{
-				if (e != 1 && e != g && i != g && e < i && i < g)
+		{		
+			if (e != 1 && e < i)
 				{
 					putchar (e);
 					putchar (i);
-					putchar (g);
-					if (i == 56 && e == 55 && g == 57)
+					if (i == 57 && e == 56)
 					{
 						break;
 					}
 					putchar (',');
 					putchar (' ');
 				}
-				g++;
-			}
-			i++;
+				i++;
 		}
 		e++;
 	}
