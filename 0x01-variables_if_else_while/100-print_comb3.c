@@ -19,14 +19,14 @@ int main(void)
 		{		
 			if (e != 1 && e < i)
 			{
-				putchar (e);
-				putchar (i);
-				if (i == 57 && e == 56)
-				{
-					break;
-				}
-				putchar (',');
-				putchar (' ');
+			putchar (e);
+			putchar (i);
+			if (i == 57 && e == 56)
+			{
+				break;
+			}
+			putchar (',');
+			putchar (' ');
 			}
 			i++;
 		}
