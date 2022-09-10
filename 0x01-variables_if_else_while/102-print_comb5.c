@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i, e, g, h ,op1, op2;
+	int i, e, g, ,h ,op1, op2;
 
 	i = e = g = h = 48;
 	while (h < 58)
@@ -38,7 +38,8 @@ int main(void)
 					i++;
 				}
 				e++;
-			}g++;
+			}
+			g++;
 		}
 		h++;
 	}
