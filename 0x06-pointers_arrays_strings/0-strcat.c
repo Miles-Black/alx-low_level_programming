@@ -3,13 +3,13 @@
 /**
  * _strcat - concatenates the string pointed to by @src to 
  * the end of the string pointed to by @dest
- * @dest: string that will be appended
+ * @dest: String that will be accepted 
  * @src: string to be concatenated upon
  *
- * Return: return poiner to @dest
+ * Return: return pointer to @dest
  */
 
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
