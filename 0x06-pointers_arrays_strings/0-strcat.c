@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates the string to by @src to 
- * the end of the string pointed to by @pest
+ * _strcat - concatenates the string to by @src to
+ * * the end of the string pointed to by @pest
  * @dest: string that will be appended
  * @src: stringto be concatenated upon
  *
