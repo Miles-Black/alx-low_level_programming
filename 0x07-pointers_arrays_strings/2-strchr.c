@@ -5,7 +5,8 @@
  * @s: string to check
  * @c: character to check for
  *
- * Return: pointer to spot in s with c or null
+ * Return:If c is found - a pointer to the first occurenece.
+ * If c is not found - NULL.
  */
 char *_strchr(char *s, char c)
 {
