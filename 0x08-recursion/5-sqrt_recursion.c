@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recusrion - return the natural square root of a number
+ * _sqrt_recursion - natural square root
  * @n: number to be used
  *
  * Return: the square root of n
