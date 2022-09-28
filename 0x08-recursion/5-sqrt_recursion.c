@@ -2,7 +2,7 @@
 
 /**
  * _sqrt_recusrion - return the natural square root of a number
- * @n: number to be used 
+ * @n: number to be used
  *
  * Return: the square root of n
  */
