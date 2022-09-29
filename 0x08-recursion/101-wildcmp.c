@@ -1,4 +1,4 @@
-#include "main.h"i
+#include "main.h"
 
 int strlen_no_wilds(char *str);
 void iterate_wild(char **wildstr);
@@ -48,7 +48,7 @@ void iterate_wild(char **wildstr)
  * @str: The string to be matched.
  * @postfix: The postfix
  *
- * Return: if str and postfix are identical - a pointer to the 
+ * Return: if str and postfix are identical - a pointer to the
  * null byte located at the end of postfix
  */
 char *postfix_match(char *str, char *postfix)
