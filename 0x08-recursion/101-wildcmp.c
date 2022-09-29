@@ -6,7 +6,8 @@ char *postfix_match(char *str, char *postfix);
 int wildcmp(char *s1, char *s2);
 
 /**
- * strlen_no_wilds - Return the length of a string, ignoring wildcard characters.
+ * strlen_no_wilds - Return the length of a string,
+ * ignoring wildcard characters.
  * @str: The string to be measured
  *
  *
@@ -42,11 +43,13 @@ void iterate_wild(char **wildstr)
 	}
 }
 /**
- * postfix_match - checks if a string str matches the postfix of another string potentially containing wildcards
+ * postfix_match - checks if a string str matches the
+ * postfix of another string potentially containing wildcards
  * @str: The string to be matched.
  * @postfix: The postfix
  *
- * Return: if str and postfix are identical - a pointer to the null byte located at the end of postfix
+ * Return: if str and postfix are identical - a pointer to the 
+ * null byte located at the end of postfix
  */
 char *postfix_match(char *str, char *postfix)
 {
