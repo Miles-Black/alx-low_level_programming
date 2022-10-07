@@ -27,6 +27,7 @@ int check_num(char *str)
 	}
 	return (1);
 }
+
 /**
  * main - print the name of the program
  * @argc: count arguments
@@ -34,6 +35,8 @@ int check_num(char *str)
  *
  * Return: always 0 success
  */
+
+int main(int argc, char *argv[])
 
 {
 	int count;
